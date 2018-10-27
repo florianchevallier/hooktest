@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Login() {
+function LoginHook() {
   const [count, setCount] = useState(0);
 
   return (
@@ -13,4 +13,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginHook;
