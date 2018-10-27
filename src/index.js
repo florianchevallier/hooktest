@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './features/App';
+
+import App from './App.js';
+//import App from './UsingHook.js';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <App />,
+  
   document.getElementById("root")
 );
 // If you want your app to work offline and load faster, you can change

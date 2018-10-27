@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import LoginClass from "../Login/LoginClass";
-import LoginHook from "../Login/LoginHook";
+import UsingClass from "./UsingClass";
+import UsingHook from "./UsingHook";
 
 class App extends Component {
   render() {
@@ -16,8 +16,8 @@ class App extends Component {
             <li><Link to="/hook">Hooks</Link></li>
           </ul>
           <div>
-            <Route exact path="/class" component={LoginClass} />
-            <Route exact path="/hook" component={LoginHook} />
+            <Route exact path="/class" component={UsingClass} />
+            <Route exact path="/hook" component={UsingHook} />
           </div>
         </div>
       </Router>
